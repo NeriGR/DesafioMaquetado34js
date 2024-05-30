@@ -10,6 +10,20 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <style>
+      .toggle-button {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 1000;
+      }
+      .navbar-light .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%288, 8, 8, 0.5%29" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"/%3E%3C/svg%3E');
+      }
+    </style>
   </head>
 
   <body class="p-3 mb-2 bg-body-secondary" . bg-body-secondary>
@@ -26,9 +40,8 @@
                     height="30px"
                   />
                 </button>
-
                 <div class="input-group w-50 mx-3">
-                  <div class="input-group-append">
+                  <div class="input-group-prepend">
                     <button
                       class="btn btn-outline-primary btn-sm"
                       type="button"
@@ -46,7 +59,7 @@
                     placeholder="Buscar..."
                   />
                 </div>
-                <div class="d-flex mx-5">
+                <div class="d-none d-md-flex mx-5">
                   <button type="button" class="btn btn-light btn-sm m-1">
                     Log in
                   </button>
@@ -63,6 +76,17 @@
         </div>
       </div>
     </div>
+
+    <button
+      class="btn btn-primary d-md-none toggle-button"
+      type="button"
+      data-toggle="collapse"
+      data-target="#responsiveBox"
+      aria-expanded="false"
+      aria-controls="responsiveBox"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
     <div class="container d-flex justify-content-between felx-md-row mt-4 pt-4">
       <div class="box d-none d-md-block col-md-2 m-2 mt-3">
