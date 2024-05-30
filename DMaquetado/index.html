@@ -12,43 +12,51 @@
     />
   </head>
 
-  <body class="p-3 mb-2 bg-light text-dark">
-    .bg-light">
+  <body class="p-3 mb-2 bg-body-secondary" . bg-body-secondary>
     <div class="container-fluid fixed-top">
       <div class="row">
         <div class="col-md-12">
-          <div id="ppalContainer" class="container mt0">
+          <div id="ppalContainer" class="container mt-0">
             <div class="card">
-              <div
-                class="btn-group d-flex justify-content-between"
-                role="group"
-                aria-label="Basic example"
-              >
-                <button class="m-2">
+              <div class="d-flex p-2">
+                <button class="p-0 border-0 bg-transparent">
                   <img
                     src="https://cdn.freelogovectors.net/wp-content/uploads/2019/05/dev-logo.jpg"
                     alt=""
                     height="30px"
                   />
                 </button>
-                <button class="m-2">
-                  <img
-                    src="https://th.bing.com/th/id/OIP.J-NC5zdHendWhPtlgsY0LgHaHa?w=217&h=217&c=7&r=0&o=5&dpr=1.2&pid=1.7"
-                    alt=""
-                    height="20px"
-                  />
-                </button>
-                <div class="search-bar d-flex w-50 m-2">
+
+                <div class="input-group w-50 mx-3">
+                  <div class="input-group-append">
+                    <button
+                      class="btn btn-outline-primary btn-sm"
+                      type="button"
+                    >
+                      <img
+                        src="https://th.bing.com/th/id/OIP.J-NC5zdHendWhPtlgsY0LgHaHa?rs=1&pid=ImgDetMain"
+                        alt=""
+                        height="25"
+                      />
+                    </button>
+                  </div>
                   <input
                     type="text"
                     class="form-control"
                     placeholder="Buscar..."
                   />
                 </div>
-                <button type="button" class="btn btn-light m-2">Log in</button>
-                <button type="button" class="btn btn-outline-primary m-2">
-                  Crate account
-                </button>
+                <div class="d-flex mx-5">
+                  <button type="button" class="btn btn-light btn-sm m-1">
+                    Log in
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-outline-primary btn-sm m-1"
+                  >
+                    Create account
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -56,22 +64,27 @@
       </div>
     </div>
 
-    <div class="container d-flex justify-content-between felx-md-row mt-5 pt-4">
+    <div class="container d-flex justify-content-between felx-md-row mt-4 pt-4">
       <div class="box d-none d-md-block col-md-2 m-2 mt-3">
         <div class="row">
           <div class="Left-aside-card1">
-            <div class="card-body p-3 mb-2 bg-white text-dark">
-              .bg-white>
+            <div class="card-body p-3 mb-2 bg-white text-dark" .bg-white>
               <h4>DEV Community is a community of 1,518,184</h4>
               <p>
                 We're place where coders share, stay-up-to-date and grow their
                 carrers
               </p>
+              <button type="button" class="btn btn-outline-primary col-sm-12">
+                Primary
+              </button>
+              <button type="button" class="btn btn-light col-sm-12">
+                Log in
+              </button>
             </div>
 
             <nav class="links temp-container">
-              <ul class="logo-links">
-                <li class="mainlink">
+              <ul class="logo-link list-unstyled">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -106,9 +119,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Home</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Home</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -161,9 +178,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Reading List</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Reading list</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -209,9 +230,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Podcasts</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Podcast</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -233,9 +258,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Videos</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Videos</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -259,9 +288,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Tags</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Tags</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -293,9 +326,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">FAQ</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >FAQ</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -321,9 +358,13 @@
                       ></path>
                     </svg>
                   </span>
-                  <span><a href="#">Forem Shop</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Forem shop</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -337,9 +378,13 @@
                       ></path>
                     </svg>
                   </span>
-                  <span><a href="#">Advertise on DEV</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Advertise on DEV</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       id="Layer_1"
@@ -377,9 +422,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">About</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >About</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -403,9 +452,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Contact</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Contact</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns:svg="http://www.w3.org/2000/svg"
@@ -506,9 +559,13 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Guides</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Guides</a
+                    ></span
+                  >
                 </li>
-                <li class="mainlink">
+                <li class="mainlink mt-3">
                   <span class="c-link__icon">
                     <svg
                       xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -627,17 +684,21 @@
                       </g>
                     </svg>
                   </span>
-                  <span><a href="#">Software Comparisons</a></span>
+                  <span
+                    ><a href="#" class="text-decoration-none text-dark"
+                      >Software comparisons</a
+                    ></span
+                  >
                 </li>
               </ul>
             </nav>
 
             <section class="other">
-              <div class="otherHeader">
+              <div class="otherHeader mt-4">
                 <h4>Other</h4>
               </div>
               <div class="otherItems">
-                <div class="otherItem">
+                <div class="otherItem mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 44 44"
@@ -655,9 +716,11 @@
                       ></path>
                     </g>
                   </svg>
-                  <a href="#">Code of Conduct </a>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Code of Conduct
+                  </a>
                 </div>
-                <div class="otherItem">
+                <div class="otherItem mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 44 44"
@@ -688,9 +751,11 @@
                       ></path>
                     </g>
                   </svg>
-                  <a href="#">Privacy Policy</a>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Privacy Policy</a
+                  >
                 </div>
-                <div class="otherItem">
+                <div class="otherItem mt-3">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 44 44"
@@ -748,15 +813,235 @@
                       ></circle>
                     </g>
                   </svg>
-                  <a href="#">Terms of use</a>
+                  <a href="#" class="text-decoration-none text-dark"
+                    >Terms of use</a
+                  >
                 </div>
               </div>
+              <div class="conteiner-redes mt-4">
+                <!--twitter-->
+                <a href="https://twitter.com/thepracticaldev" class="itemIcono">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="aj6x9cali3nz6yf2z0erqsrmvwj3zsw7"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="aj6x9cali3nz6yf2z0erqsrmvwj3zsw7">Twitter</title>
+                    <path
+                      d="M22.162 5.656a8.383 8.383 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.211 4.211 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.395 8.395 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.495 8.495 0 002.087-2.165l-.001-.001z"
+                    ></path>
+                  </svg>
+                </a>
+
+                <!--facebook-->
+                <a
+                  href="https://facebook.com/thepracticaldev"
+                  class="itemIcono"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="arbevxdma8gtql7aqrg8ttb31wx0zhwa"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="arbevxdma8gtql7aqrg8ttb31wx0zhwa">
+                      Facebook
+                    </title>
+                    <path
+                      d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.188 19.188 0 00-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 01-1-1V4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1h-4.598z"
+                    ></path>
+                  </svg>
+                </a>
+                <!--github-->
+                <a a href="https://github.com/forem" class="itemIcono">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="aibfqeqtoocwl125kh8csj7hp7mh8lwc"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="aibfqeqtoocwl125kh8csj7hp7mh8lwc">Github</title>
+                    <path
+                      d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 006.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 012.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0022 12c0-5.525-4.475-10-10-10z"
+                    ></path>
+                  </svg>
+                </a>
+                <!--instragram-->
+                <a
+                  href="https://instagram.com/thepracticaldev"
+                  class="itemIcono"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="al9w03e4cfa1gk7iq5wre9fafle4a3da"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="al9w03e4cfa1gk7iq5wre9fafle4a3da">
+                      Instagram
+                    </title>
+                    <path
+                      d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z"
+                    ></path>
+                  </svg>
+                </a>
+
+                <!--twitch-->
+                <a href="https://twitch.com/thepracticaldev" class="itemIcono">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="a1fq5hbmb783fm120qxawaiasovexqw2"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="a1fq5hbmb783fm120qxawaiasovexqw2">Twitch</title>
+                    <path
+                      d="M4.3 3H21v11.7l-4.7 4.7h-3.9l-2.5 2.4H7v-2.4H3V6.2L4.3 3zM5 17.4h4v2.4h.095l2.5-2.4h3.877L19 13.872V5H5v12.4zM15 8h2v4.7h-2V8zm0 0h2v4.7h-2V8zm-5 0h2v4.7h-2V8z"
+                    ></path>
+                  </svg>
+                </a>
+
+                <!--mastodon-->
+                <a
+                  href="https://fosstodon.org/@thepracticaldev"
+                  class="itemIcono"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    role="img"
+                    aria-labelledby="a14jnrzhulr1v0zfh4rschkgpj31nu8q"
+                    class="crayons-icon c-link__icon"
+                  >
+                    <title id="a14jnrzhulr1v0zfh4rschkgpj31nu8q">
+                      Mastodon
+                    </title>
+                    <path
+                      d="M21.258 13.99c-.274 1.41-2.456 2.955-4.962 3.254-1.306.156-2.593.3-3.965.236-2.243-.103-4.014-.535-4.014-.535 0 .218.014.426.04.62.292 2.215 2.196 2.347 4 2.41 1.82.062 3.44-.45 3.44-.45l.076 1.646s-1.274.684-3.542.81c-1.25.068-2.803-.032-4.612-.51-3.923-1.039-4.598-5.22-4.701-9.464-.031-1.26-.012-2.447-.012-3.44 0-4.34 2.843-5.611 2.843-5.611 1.433-.658 3.892-.935 6.45-.956h.062c2.557.02 5.018.298 6.451.956 0 0 2.843 1.272 2.843 5.61 0 0 .036 3.201-.397 5.424zm-2.956-5.087c0-1.074-.273-1.927-.822-2.558-.567-.631-1.308-.955-2.229-.955-1.065 0-1.871.41-2.405 1.228l-.518.87-.519-.87C11.276 5.8 10.47 5.39 9.405 5.39c-.921 0-1.663.324-2.229.955-.549.631-.822 1.484-.822 2.558v5.253h2.081V9.057c0-1.075.452-1.62 1.357-1.62 1 0 1.501.647 1.501 1.927v2.79h2.07v-2.79c0-1.28.5-1.927 1.5-1.927.905 0 1.358.545 1.358 1.62v5.1h2.08V8.902l.001.001z"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+              <!-- Popular Tags 6-->
+              <h3>Popular Tags</h3>
+              <div class="popular-tags">
+                <div class="tagCont">
+                  <a href="https://dev.to/t/webdev">#webdev</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/javascript">#javascript</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/beginners">#beginners/a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/programming">#programming<</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/tutorial">#tutorial</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/react">#react</a>
+                </div>
+                
+                <div class="tagCont">
+                  <a href="https://dev.to/t/python">#python</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/ai">#ai</a>
+                </div>
+
+                <div class="tagCont">
+                  <a href="https://dev.to/t/devops">#devops</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/opensource">#opensourse</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/aws">#aws</a>
+                </div>
+              <div class="tagCont">
+                  <a href="https://dev.to/t/typescript">#typescript</a>
+                </div>
+                 <div class="tagCont">
+                  <a href="https://dev.to/t/node">#node</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/career">#career</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/css">#css</a>
+                </div>
+                <div class="tagCont">
+                 
+                  <a href="https://dev.to/t/machinelearning">#machine learning</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/java">#java</a>
+                </div>
+
+                
+                
+                
+                <div class="tagCont">
+                  <a href="https://dev.to/t/database">#database</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/datascience">#datascience</a>
+                </div>
+                
+
+                <div class="tagCont">
+                  <a href="https://dev.to/t/cloud">#cloud</a>
+                </div>
+                
+                <div class="tagCont">
+                  <a href="https://dev.to/t/testing">#testing</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/development">#development</a>
+                </div>
+                
+                <div class="tagCont">
+                  <a href="https://dev.to/t/php">#php</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/nextjs">#nextjs</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/Frontend>#frontend</a>
+                </div>
+                <div class="tagCont">
+                  <a href="https://dev.to/t/security">#security</a>
+                </div>
+                
+              </div>
+
+              
             </section>
           </div>
         </div>
       </div>
 
-      <main class="box col-12 col-md-7 m-2 mt-3">
+      <main class="box col-12 col-md-7 mt-3">
         <div class="card border-0">
           <div class="container mt-2">
             <button type="button" class="btn btn-light">Relevant</button>
@@ -764,93 +1049,30 @@
             <button type="button" class="btn btn-light">Top</button>
           </div>
           <img
-            src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs8isusspnsro0c9elo45.png"
-            class="rounded-4 m-1"
+            src="https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fivsygiubvfu4y1li5mu9.png"
+            class="rounded-top"
             alt="..."
           />
           <div class="container-fluid mt-2">
             <div class="row align-items-center">
               <div class="col-auto">
                 <img
-                  src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1%2Ff451a206-11c8-4e3d-8936-143d0a7e65bb.png"
+                  src="https://media.dev.to/cdn-cgi/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F498489%2F82df2800-b4ac-4ac9-bbd8-0e96926c0705.png"
                   class="rounded-circle"
                   alt="Profile Image"
                   height="35px"
                 />
               </div>
-              <!-- Social Network 5-->
-           <div class="conteiner-redes">
-            <!--twitter-->
-            <a href="https://twitter.com/thepracticaldev" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="aj6x9cali3nz6yf2z0erqsrmvwj3zsw7" class="crayons-icon c-link__icon">
-               <title id="aj6x9cali3nz6yf2z0erqsrmvwj3zsw7">Twitter</title>
-               <path
-                 d="M22.162 5.656a8.383 8.383 0 01-2.402.658A4.196 4.196 0 0021.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 00-7.126 3.814 11.874 11.874 0 01-8.62-4.37 4.168 4.168 0 00-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 01-1.894-.523v.052a4.185 4.185 0 003.355 4.101 4.211 4.211 0 01-1.89.072A4.185 4.185 0 007.97 16.65a8.395 8.395 0 01-6.191 1.732 11.83 11.83 0 006.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.495 8.495 0 002.087-2.165l-.001-.001z"></path>
-             </svg>
-            </a>
-
-            <!--facebook-->
-            <a href="https://facebook.com/thepracticaldev" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="arbevxdma8gtql7aqrg8ttb31wx0zhwa" class="crayons-icon c-link__icon">
-               <title id="arbevxdma8gtql7aqrg8ttb31wx0zhwa">Facebook</title>
-               <path
-                 d="M15.402 21v-6.966h2.333l.349-2.708h-2.682V9.598c0-.784.218-1.319 1.342-1.319h1.434V5.857a19.188 19.188 0 00-2.09-.107c-2.067 0-3.482 1.262-3.482 3.58v1.996h-2.338v2.708h2.338V21H4a1 1 0 01-1-1V4a1 1 0 011-1h16a1 1 0 011 1v16a1 1 0 01-1 1h-4.598z">
-               </path>
-             </svg>
-            </a>
-            <!--github-->
-             <a a href="https://github.com/forem" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="aibfqeqtoocwl125kh8csj7hp7mh8lwc" class="crayons-icon c-link__icon">
-               <title id="aibfqeqtoocwl125kh8csj7hp7mh8lwc">Github</title>
-               <path
-                 d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 006.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 012.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0022 12c0-5.525-4.475-10-10-10z">
-               </path>
-             </svg>
-           </a>
-           <!--instragram-->
-           <a href="https://instagram.com/thepracticaldev" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="al9w03e4cfa1gk7iq5wre9fafle4a3da" class="crayons-icon c-link__icon">
-               <title id="al9w03e4cfa1gk7iq5wre9fafle4a3da">Instagram</title>
-               <path
-                 d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153.509.5.902 1.105 1.153 1.772.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 01-1.153 1.772c-.5.508-1.105.902-1.772 1.153-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 01-1.772-1.153 4.904 4.904 0 01-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 011.153-1.772A4.897 4.897 0 015.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 5a5 5 0 100 10 5 5 0 000-10zm6.5-.25a1.25 1.25 0 10-2.5 0 1.25 1.25 0 002.5 0zM12 9a3 3 0 110 6 3 3 0 010-6z">
-               </path>
-             </svg>
-           </a>
-
-           <!--twitch-->
-           <a href="https://twitch.com/thepracticaldev" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="a1fq5hbmb783fm120qxawaiasovexqw2" class="crayons-icon c-link__icon">
-               <title id="a1fq5hbmb783fm120qxawaiasovexqw2">Twitch</title>
-               <path
-                 d="M4.3 3H21v11.7l-4.7 4.7h-3.9l-2.5 2.4H7v-2.4H3V6.2L4.3 3zM5 17.4h4v2.4h.095l2.5-2.4h3.877L19 13.872V5H5v12.4zM15 8h2v4.7h-2V8zm0 0h2v4.7h-2V8zm-5 0h2v4.7h-2V8z">
-               </path>
-             </svg>
-           </a>
-         
-           <!--mastodon-->
-           <a href="https://fosstodon.org/@thepracticaldev" class="itemIcono">
-             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" role="img"
-               aria-labelledby="a14jnrzhulr1v0zfh4rschkgpj31nu8q" class="crayons-icon c-link__icon">
-               <title id="a14jnrzhulr1v0zfh4rschkgpj31nu8q">Mastodon</title>
-               <path
-                 d="M21.258 13.99c-.274 1.41-2.456 2.955-4.962 3.254-1.306.156-2.593.3-3.965.236-2.243-.103-4.014-.535-4.014-.535 0 .218.014.426.04.62.292 2.215 2.196 2.347 4 2.41 1.82.062 3.44-.45 3.44-.45l.076 1.646s-1.274.684-3.542.81c-1.25.068-2.803-.032-4.612-.51-3.923-1.039-4.598-5.22-4.701-9.464-.031-1.26-.012-2.447-.012-3.44 0-4.34 2.843-5.611 2.843-5.611 1.433-.658 3.892-.935 6.45-.956h.062c2.557.02 5.018.298 6.451.956 0 0 2.843 1.272 2.843 5.61 0 0 .036 3.201-.397 5.424zm-2.956-5.087c0-1.074-.273-1.927-.822-2.558-.567-.631-1.308-.955-2.229-.955-1.065 0-1.871.41-2.405 1.228l-.518.87-.519-.87C11.276 5.8 10.47 5.39 9.405 5.39c-.921 0-1.663.324-2.229.955-.549.631-.822 1.484-.822 2.558v5.253h2.081V9.057c0-1.075.452-1.62 1.357-1.62 1 0 1.501.647 1.501 1.927v2.79h2.07v-2.79c0-1.28.5-1.927 1.5-1.927.905 0 1.358.545 1.358 1.62v5.1h2.08V8.902l.001.001z">
-               </path>
-             </svg>
-           </a>
-          
               <div class="col mt-2">
-                <span>Ben Halpern</span>
-                <p>May 27</p>
+                <span>lowlighter</span>
+                <p>Posted on May 27</p>
               </div>
             </div>
           </div>
           <div class="card-body">
-            <h3 class="card-title container-fluid col-md-11">Meme Monday</h3>
+            <h3 class="card-title container-fluid col-md-11">
+              Make naked websites look great with matcha.css!
+            </h3>
             <div class="container col-md-11 mt-2">
               <button type="button" class="btn btn-outline-warning">
                 #css
@@ -860,104 +1082,492 @@
               </button>
               <button type="button" class="btn btn-outline-success">
                 #html
-              </button>git
+              </button>
             </div>
           </div>
           <div class="container col-md-11">
-            <button type="button" class="btn btn-light">96 reactions</button>
+            <button type="button" class="btn btn-light">
+              <div class="multiple_reactions_aggregate m-3">
+                <span class="multiple_reactions_icons_container" dir="rtl">
+                  <span class="crayons_icon_container">
+                    <img
+                      src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                      width="18"
+                      height="18"
+                    />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img
+                      src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                      width="18"
+                      height="18"
+                    />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img
+                      src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                      width="18"
+                      height="18"
+                    />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img
+                      src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                      width="18"
+                      height="18"
+                    />
+                  </span>
+                  <span class="crayons_icon_container">
+                    <img
+                      src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                      width="18"
+                      height="18"
+                    />
+                  </span>
+                </span>
+                <span class="aggregate_reactions_counter"
+                  >36<span class="hidden s:inline">&nbsp;reactions</span></span
+                >
+              </div>
+            </button>
             <button type="button" class="btn btn-light">36 comments</button>
           </div>
         </div>
+
+        <main class="box col-12 col-md-12 mt-3">
+          <div class="card border-0">
+            <div class="container-fluid mt-2">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/91.jpg"
+                    class="rounded-circle"
+                    alt="Profile Image"
+                    height="35px"
+                  />
+                </div>
+                <div class="col mt-2">
+                  <span>Miguel</span>
+                  <p>May 25</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title container-fluid col-md-11">
+                Frontend resources! 🚀
+              </h3>
+              <div class="container col-md-11 mt-2">
+                <button type="button" class="btn btn-outline-warning">
+                  #frontend
+                </button>
+                <button type="button" class="btn btn-outline-info">
+                  #solucion
+                </button>
+                <button type="button" class="btn btn-outline-success">
+                  #sass
+                </button>
+              </div>
+            </div>
+            <div class="container col-md-11">
+              <button type="button" class="btn btn-light">
+                <div class="multiple_reactions_aggregate m-3">
+                  <span class="multiple_reactions_icons_container" dir="rtl">
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                  </span>
+                  <span class="aggregate_reactions_counter"
+                    >100<span class="hidden s:inline"
+                      >&nbsp;reactions</span
+                    ></span
+                  >
+                </div>
+              </button>
+              <button type="button" class="btn btn-light">10 comments</button>
+            </div>
+          </div>
+        </main>
+
+        <main class="box col-12 col-md-12 mt-3">
+          <div class="card border-0">
+            <div class="container-fluid mt-2">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/83.jpg"
+                    class="rounded-circle"
+                    alt="Profile Image"
+                    height="35px"
+                  />
+                </div>
+                <div class="col mt-2">
+                  <span>Caroline</span>
+                  <p>May 29</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title container-fluid col-md-11">
+                9 Caching Strategies for System Design Interviews
+              </h3>
+              <div class="container col-md-11 mt-2">
+                <button type="button" class="btn btn-outline-warning">
+                  #discover
+                </button>
+                <button type="button" class="btn btn-outline-info">
+                  #strategies
+                </button>
+                <button type="button" class="btn btn-outline-success">
+                  #desing
+                </button>
+              </div>
+            </div>
+            <div class="container col-md-11">
+              <button type="button" class="btn btn-light">
+                <div class="multiple_reactions_aggregate m-3">
+                  <span class="multiple_reactions_icons_container" dir="rtl">
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                  </span>
+                  <span class="aggregate_reactions_counter"
+                    >320<span class="hidden s:inline"
+                      >&nbsp;reactions</span
+                    ></span
+                  >
+                </div>
+              </button>
+              <button type="button" class="btn btn-light">50 comments</button>
+            </div>
+          </div>
+        </main>
+
+        <main class="box col-12 col-md-12 mt-3">
+          <div class="card border-0">
+            <div class="container-fluid mt-2">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <img
+                    src="https://randomuser.me/api/portraits/men/90.jpg"
+                    class="rounded-circle"
+                    alt="Profile Image"
+                    height="35px"
+                  />
+                </div>
+                <div class="col mt-2">
+                  <span>Rubin Otieno</span>
+                  <p>May 28</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title container-fluid col-md-11">
+                Are You Writing Your Git Commit Messages Properly?
+              </h3>
+              <div class="container col-md-11 mt-2">
+                <button type="button" class="btn btn-outline-warning">
+                  #Git
+                </button>
+                <button type="button" class="btn btn-outline-info">
+                  #Commits
+                </button>
+                <button type="button" class="btn btn-outline-success">
+                  #GoodPractics
+                </button>
+              </div>
+            </div>
+            <div class="container col-md-11">
+              <button type="button" class="btn btn-light">
+                <div class="multiple_reactions_aggregate m-3">
+                  <span class="multiple_reactions_icons_container" dir="rtl">
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                  </span>
+                  <span class="aggregate_reactions_counter"
+                    >41<span class="hidden s:inline"
+                      >&nbsp;reactions</span
+                    ></span
+                  >
+                </div>
+              </button>
+              <button type="button" class="btn btn-light">41 comments</button>
+            </div>
+          </div>
+        </main>
+
+        <main class="box col-12 col-md-12 mt-3">
+          <div class="card border-0">
+            <div class="container-fluid mt-2">
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <img
+                    src="https://randomuser.me/api/portraits/women/60.jpg"
+                    class="rounded-circle"
+                    alt="Profile Image"
+                    height="35px"
+                  />
+                </div>
+                <div class="col mt-2">
+                  <span>Angel Page</span>
+                  <p>May 24</p>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-title container-fluid col-md-11">
+                VS Code for Note-Taking
+              </h3>
+              <div class="container col-md-11 mt-2">
+                <button type="button" class="btn btn-outline-warning">
+                  #vscode
+                </button>
+                <button type="button" class="btn btn-outline-info">
+                  #notes
+                </button>
+                <button type="button" class="btn btn-outline-success">
+                  #beginners
+                </button>
+              </div>
+            </div>
+            <div class="container col-md-11">
+              <button type="button" class="btn btn-light">
+                <div class="multiple_reactions_aggregate m-3">
+                  <span class="multiple_reactions_icons_container" dir="rtl">
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/fire-f60e7a582391810302117f987b22a8ef04a2fe0df7e3258a5f49332df1cec71e.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/raised-hands-74b2099fd66a39f2d7eed9305ee0f4553df0eb7b4f11b01b6b1b499973048fe5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/exploding-head-daceb38d627e6ae9b730f36a1e390fca556a4289d5a41abb2c35068ad3e2c4b5.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/multi-unicorn-b44d6f8c23cdd00964192bedc38af3e82463978aa611b4365bd33a0f1f4f3e97.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                    <span class="crayons_icon_container">
+                      <img
+                        src="https://dev.to/assets/sparkle-heart-5f9bee3767e18deb1bb725290cb151c25234768a0e9a2bd39370c382d02920cf.svg"
+                        width="18"
+                        height="18"
+                      />
+                    </span>
+                  </span>
+                  <span class="aggregate_reactions_counter"
+                    >401<span class="hidden s:inline"
+                      >&nbsp;reactions</span
+                    ></span
+                  >
+                </div>
+              </button>
+              <button type="button" class="btn btn-light">233 comments</button>
+            </div>
+          </div>
+        </main>
       </main>
 
       <div class="box d-none d-md-block col-md-3 m-2 mt-3">
         <aside class="scroll-barra-derecha">
-          <section class="seccion-derecha">
-            <header class="head-barra-derecha">
-              <h3>#discuss</h3>
-              <div>
-                <p>Discussion threads targeting the whole community</p>
+          <div class="bg-white text-dark" .bg-white>
+            <section class="container bg-white text-dark" .bg-white>
+              <div class="card">
+                <a
+                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                  href="#"
+                >
+                  <h3>#discuss</h3></a
+                >
+                <span> Discussion threads targeting the whole community </span>
               </div>
-            </header>
-            <div>
-              <p>Meme Monday</p>
-              <p>My first DEV community post</p>
-              <p>
-                Share Your AI Insights: How Do You Use ChatGPT for Work and
-                Studying?
-              </p>
-              <p>
-                Hi everyone, happy weekend! Where are you building today? 🙃
-              </p>
-              <p>
-                Latest Newsletter: Simulation Theory and Virtual Worlds (Issue
-                #165)
-              </p>
-            </div>
-          </section>
+
+              <div>
+                <p>Meme Monday</p>
+                <p>My first DEV community post</p>
+                <p>
+                  Share Your AI Insights: How Do You Use ChatGPT for Work and
+                  Studying?
+                </p>
+                <p>
+                  Hi everyone, happy weekend! Where are you building today? 🙃
+                </p>
+                <p>
+                  Latest Newsletter: Simulation Theory and Virtual Worlds (Issue
+                  #165)
+                </p>
+              </div>
+            </section>
+          </div>
+
           <section>
-            <header class="head-barra-derecha-S2">
-              <h3>#watercooler</h3>
-              <div>
-                <p>Light, and off-topic conversation.</p>
-              </div>
-            </header>
-            <div>
+            <div class="bg-white text-dark" .bg-white>
+              <header class="head-barra-derecha-S2">
+                <h3>#watercooler</h3>
+                <div>
+                  <p>Light, and off-topic conversation.</p>
+                </div>
+              </header>
+
               <p>Meme Monday</p>
               <p>We need to slow down, Everything is going too fast</p>
-              <section>
-                <header>
-                  <h4>trending guides/resources</h4>
-                </header>
-                <div class="info-derecha">
-                  <div>
-                    <p>Top 50 System Design Interview Questions for 2024</p>
-                    <p>
-                      5 Skills Programmers and Developers Should Learn in 2024
-                    </p>
-                    <p>Array.reduce() is Goated 🐐✨</p>
-                    <p>
-                      Mastering Relational Database Design: A Comprehensive
-                      Guide
-                    </p>
-                    <p>
-                      You're not a software engineer; you're a "frameworker"
-                    </p>
-                    <p>🕸 Web development trends we will see in 2024 👀</p>
-                    <p>
-                      GPT-4o: Learn how to Implement a RAG on the new model,
-                      step-by-step!
-                    </p>
-                    <p>Why nobody grows up wanting to be a DevOps engineer</p>
-                    <p>
-                      Difference between Apache Kafka, RabbitMQ, and ActiveMQ
-                    </p>
-                    <p>17 Best Developer Productivity Tools to Try</p>
-                    <p>
-                      Improve your productivity by using more terminal and less
-                      mouse (🚀).
-                    </p>
-                    <p>Build an awesome GitHub developer portfolio.</p>
-                    <p>10 Signs You've Been Coding Too Much</p>
-                    <p>
-                      How I boosted my productivity while working on multiple
-                      projects
-                    </p>
-                    <p>RUST Programming Full Course 2024</p>
-                    <p>VSCode on Android Phone</p>
-                    <p>
-                      AI-Powered Frontend UI Components Generator (Next.js,
-                      GPT4, Langchain, & CopilotKit)
-                    </p>
-                    <p>How to Run Llama 3 Locally with Ollama and Open WebUI</p>
-                    <p>
-                      10 engineering blogs to become a System Design Hero for
-                      free
-                    </p>
-                    <p>What we learned building our SaaS with Rust 🦀</p>
-                  </div>
-                </div>
-              </section>
+            </div>
+          </section>
+
+          <section>
+            <header>
+              <h4>trending guides/resources</h4>
+            </header>
+            <div class="info-derecha">
+              <div>
+                <p>Top 50 System Design Interview Questions for 2024</p>
+                <p>5 Skills Programmers and Developers Should Learn in 2024</p>
+                <p>Array.reduce() is Goated 🐐✨</p>
+                <p>
+                  Mastering Relational Database Design: A Comprehensive Guide
+                </p>
+                <p>You're not a software engineer; you're a "frameworker"</p>
+                <p>🕸 Web development trends we will see in 2024 👀</p>
+                <p>
+                  GPT-4o: Learn how to Implement a RAG on the new model,
+                  step-by-step!
+                </p>
+                <p>Why nobody grows up wanting to be a DevOps engineer</p>
+                <p>Difference between Apache Kafka, RabbitMQ, and ActiveMQ</p>
+                <p>17 Best Developer Productivity Tools to Try</p>
+                <p>
+                  Improve your productivity by using more terminal and less
+                  mouse (🚀).
+                </p>
+                <p>Build an awesome GitHub developer portfolio.</p>
+                <p>10 Signs You've Been Coding Too Much</p>
+                <p>
+                  How I boosted my productivity while working on multiple
+                  projects
+                </p>
+                <p>RUST Programming Full Course 2024</p>
+                <p>VSCode on Android Phone</p>
+                <p>
+                  AI-Powered Frontend UI Components Generator (Next.js, GPT4,
+                  Langchain, & CopilotKit)
+                </p>
+                <p>How to Run Llama 3 Locally with Ollama and Open WebUI</p>
+                <p>
+                  10 engineering blogs to become a System Design Hero for free
+                </p>
+                <p>What we learned building our SaaS with Rust 🦀</p>
+              </div>
             </div>
           </section>
         </aside>
